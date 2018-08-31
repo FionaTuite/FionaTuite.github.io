@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body{
+	margin:0 auto;
+	height:40em;
+	background-color:white;
+}
+
+.nav{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+		z-index: 12;
+		box-shadow: 0px 4px 4px #ccced1;
+}
+.link{
+  margin: 0 auto;
+}
+
+.link ul {
+	margin-top: 2%;
+  text-align: center;
+}
+
+.link ul li{
+	margin: 0 auto;
+  display: inline;
+  font-size: 160%;
+  font-family: 'Open Sans Condensed', sans-serif;
+	margin: 4%;
+
+}
+.link ul a{
+	color: #412a70;
+  text-decoration: none;
+}
+
+.landing{
+  background-image: url('index4.jpg');
+  background-size: cover;
+  max-width: 100%;
+  height: 90%;
+  box-shadow: 0px 10px 5px #aaaaaa;
+  background-attachment: fixed;
+}
+
+.name span{
+  text-align: center;
+  font-size: 360%;
+  color: white;
+  top: 35%;
+  position: relative;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.name {
+	text-align: center;
+	color:white;
+	top:35%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	position: relative;
+	bottom:1.5em;
+	text-shadow: 1px 1px black;
+  font-size:120%;
+}
+.titles{
+  margin-top: 5%;
+  font-size: 210%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#412a70;
+  margin-left: 50%;
+}
+.v{
+  border-left: 2px solid #412a70 ;
+  height: 380px;
+  position: absolute;
+  left: 42%;
+  top: 98%;
+	/* was 98 */
+}
+.container-fluid{
+  margin-left: 5%;
+	margin-bottom: 30%;
+}
+.description{
+  font-family: 'Open Sans Condensed', sans-serif;
+	font-size:120%;
+	background-color: white;
+	float:right;
+	margin-right: 16%;
+}
+.container-fluid img{
+	margin-right:8%;
+  position: absolute;
+  max-width:20%;
+	max-height:60%;
+  left: 15%;
+	margin-top: -6%;
+
+}
+.container{
+	height: 100%;
+}
+.container-fluid .projects{
+	margin-top: -6%;
+	max-width: 90%;
+	max-height: 40%;
+	left: 19%;
+	margin-right:8%;
+  position: absolute;
+}
+.skill{
+	margin-bottom: 5%;
+  text-align: center;
+  font-size: 240%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#412a70;
+}
+.gallery{
+	margin-top: 8%;
+	display: inline;
+	margin-left: 6%;
+}
+.container-fluid .art{
+	max-height: 90%;
+	max-width: 30%;
+
+
+}
+i{
+  font-size: 160px;
+	background-color: #e5e5e5;
+	padding: 4%;
+}
+
+.break{
+	margin-top: 12%;
+}
+
+footer{
+	background: #e5e5e5;
+	overflow: hidden;
+	opacity: .9;
+	width: 100%;
+}
+.contact{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0 auto;
+	font-size:
+}
+
+#footer-inner{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.one{
+	width: 20%;
+	float:left;
+	margin: 2%;
+}
+footer .one{
+	width: 33%;
+	margin: 2% 0;
+}
+footer h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#525963 ;
+	text-align: center;
+}
+footer p{
+	color: #525963;
+	text-align: center;
+	font-size: 120%;
+	margin-top: -5%;
+}
+footer a{
+	color: #959595;
+}
+.social li {
+	display: inline;
+}
+.social i {
+	font-size: 420%;
+	color: #959595;
+	margin-top: -10%;
+	margin:0 auto;
+	margin-left: 12%;
+}
+.social i:hover {
+	color: #F5F5F5;
+
+}
+#footer-one{
+	border-right: 1px solid #959595;
+	max-height: 250px;
+	min-height: 250px;
+}
+#footer-two{
+	border-right: 1px solid #959595;
+	max-height: 250px;
+	min-height: 250px;
+}
+@media screen and (max-width: 480px) {
+	.link ul li{
+		font-size: 120%;
+		margin:2%;
+	}
+	.name span{
+		font-size: 230%;
+	}
+	.titles{
+		font-size:180%;
+		margin-top:5%;
+	}
+	.v{
+		border-left: 0px;
+	}
+
+	.container-fluid img{
+		max-width: 35%;
+		left: 2%;
+		margin-left: 5px;
+		margin-top: 3%;
+		margin-bottom: 5%;
+	}
+	.description {
+		margin-left: 50%;
+		margin-right: 2%;
+		font-size: 80%;
+		margin-bottom: 5%;
+	}
+
+	.container p {
+		font-size: 180%;
+	}
+	.container{
+		height: 55%;
+	}
+	.gallery{
+		margin: 0 auto;
+		left: 6%;
+	}
+	i{
+		font-size: 250%;
+	}
+	.container-fluid .projects{
+		max-width: 40%;
+		left: 5%;
+	}
+	.container-fluid .art{
+		max-width: 45%;
+	}
+
+	footer .one{
+		width: 100%;
+		margin: 0;
+	}
+	.social i {
+		margin-left: 12%;
+		font-size: 48px;
+	}
+	#footer-one{
+		min-height: 150px;
+		padding-bottom: 10%;
+		border-bottom: 1px solid  #959595;
+	}
+	#footer-two{
+		min-height: 150px;
+		padding-bottom: 10%;
+		border-bottom: 1px solid  #959595;
+	}
