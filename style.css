@@ -52,7 +52,7 @@ body{
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.about {
+#about {
 	border-left: 2px solid #412a70 ;
 }
 .name {
