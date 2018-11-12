@@ -10,8 +10,8 @@ body{
     width: 100%;
     margin: 0 auto;
     position: fixed;
-		z-index: 12;
-		box-shadow: 0px 4px 4px #ccced1;
+    z-index: 12;
+    box-shadow: 0px 4px 4px #ccced1;
 }
 .link{
   margin: 0 auto;
@@ -52,7 +52,9 @@ body{
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-
+.about {
+	border-left: 2px solid #412a70 ;
+}
 .name {
 	text-align: center;
 	color:white;
@@ -69,14 +71,6 @@ body{
   font-family: 'Open Sans Condensed', sans-serif;
   color:#412a70;
   margin-left: 50%;
-}
-.v{
-  border-left: 2px solid #412a70 ;
-  height: 380px;
-  position: absolute;
-  left: 42%;
-  top: 58%;
-	/* was 98 */
 }
 .container-fluid{
   margin-left: 5%;
